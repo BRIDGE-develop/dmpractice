@@ -42,6 +42,8 @@ Public Class Form1
             MsgBox("パスワードを入力してください。")
         End If
 
+        Form2.Show()       'ログイン成功時、学生情報フォームに移動
+
     End Sub
 
 End Class
